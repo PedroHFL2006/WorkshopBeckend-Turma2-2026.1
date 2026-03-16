@@ -1,12 +1,12 @@
 #Média Ponderada
 
-a = 20
-b = 15
-c = 10
-pa = 2
-pb = 3
-pc = 4
+a = int(input("Escolha o numero a:"))
+b = int(input("Escolha o numero b:"))
+c = int(input("Escolha o numero c:"))
+peso_a = int(input("Escolha o peso a:"))
+peso_b = int(input("Escolha o peso b:"))
+peso_c = int(input("Escolha o peso c:"))
 
-media_ponderado = (a*pa)+(b*pb)+(c*pc)/(pa+pb+pc)
-print(media_ponderado)
+media_ponderado = (a * peso_a) + (b * peso_b) + (c * peso_c) / (peso_a + peso_b + peso_c)
+print(int(media_ponderado))
 
